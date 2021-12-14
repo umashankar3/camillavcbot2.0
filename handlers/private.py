@@ -18,31 +18,31 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔨Source Code🔨", url="https://github.com/xabhish3k/camillavcbot2.0")
+                        "☠️☠️Owner☠️☠️", url="@Umashankar31")
                   ],[
                     InlineKeyboardButton(
-                        "sᴜᴘᴘᴏʀᴛ👿", url="https://t.me/warbotzsupport"
+                        "sᴜᴘᴘᴏʀᴛ👿", url="https://t.me/shayari_jok"
                     ),
                     InlineKeyboardButton(
-                        "ᴄʜᴀɴɴᴇʟ", url="https://t.me/thewarbotz"
+                        "Sports Channel", url="https://t.me/Hindi_lyrics_2021"
                     )    
                 ],[ 
                     InlineKeyboardButton(
-                        "➕ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ➕", url="https://t.me/camillamusicbot?startgroup=true"
+                        "➕ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ➕", url="https://t.me/shayari_jok"
                     )]
             ]
         ),
      disable_web_page_preview=True
     )
 
-@Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
+@Umashankar(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
       await message.reply_text("""**Yes iᴍ online ✅**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🔊Uᴩᴅᴀᴛᴇs", url="https://t.me/thewarbotz")
+                        "🔊Uᴩᴅᴀᴛᴇs", url="https://t.me/shayari_jok")
                 ]
             ]
         )
